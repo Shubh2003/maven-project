@@ -1,0 +1,26 @@
+
+
+Maven Build
+------------
+ 
+Step 1
+ 
+1) Open Eclipse
+2) Click on File -> New -> Maven Project
+3) Select default Workspace location
+4) Click on Next
+ 
+Step 2
+5) Select the Maven archetype as maven-archetype-webapp and click on next.
+6) Provide the GroupId,ArtifactId, package and click on finish.
+7) a project struture would be created, this will have folder for source, Test and a pom.xml
+ 
+ 
+Step 3:
+8) Create Application class and write the code
+9) For the testing - create Junit Class in Test project and select the method you want to test
+10) call the method in the junit class and raise excaption on unexpected result
+ 
+Step 4: Open pom.xml and set all required dependencies and Save project
+11) Let's build the project using the "Maven clean" menu option, and then use " Maven install" in the Eclipse Maven Project Run options.
+
