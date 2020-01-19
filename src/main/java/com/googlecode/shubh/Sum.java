@@ -8,6 +8,9 @@ public class Sum {
 		return a+b;
 	}
 	
-	
+	public void HelloWorld() {
+		
+		System.out.println("HelloWorld");;
+	}
 
 }
